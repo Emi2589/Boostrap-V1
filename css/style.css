@@ -1,4 +1,17 @@
 
+html {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4rem;
+}
+
+body {
+    background-color:rgb(202, 202, 207);
+    margin: 0;
+
+}
+
+
 
 
 
@@ -179,6 +192,11 @@ background-color: #4a4a4a;
    
 }
 
+.bg-light, .text-cente, .text-white {
+    margin-top: 150px;
+}
+
+
 
 /* Fin Footer */
 
@@ -239,3 +257,172 @@ background-color: #4a4a4a;
         right: 0;
         padding: 20px 0;
     }
+
+/* Fin Header */
+
+
+
+
+/*                FIN SERVICIOS                    */
+
+
+
+
+
+
+
+/*                   NOSOTROS                     */
+
+
+
+
+ /* Header */
+
+    .header-container-nosotros {
+        background-image: url(../imagen/somos.jpg);
+        background-repeat: no-repeat;
+      background-size: cover;
+        
+        background-attachment: fixed;
+        padding: 2rem 0;
+        height: 80vh;
+        width: 100%;
+        
+    }
+    
+    
+    
+    .header-container-nosotros a {
+        color: white;
+        text-decoration: none;
+        font-size: 1rem;
+       
+        
+    }
+    
+
+    .paragraph-header1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 4rem;
+        margin-top: 10rem;
+        margin-bottom: 0;
+        color: black;
+        
+    }
+    
+    
+    .paragraph-header {
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        margin-top: 50px;
+    
+    }
+
+
+ /* Fin Header */
+
+
+/*                   FIN NOSOTROS                     */
+
+
+
+
+
+
+
+
+
+
+/*                   CONTACTO                        */
+
+
+    /*Header */
+
+.header-container-contacto {
+    background-image: url(../imagen/contacto.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    background-attachment: fixed;
+    padding: 2rem 0;
+    height: 80vh;
+    width: 100%;
+    
+}
+
+.header-container-contacto a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    
+}
+   
+   /* Fin Header */
+
+    .mapa {
+        width: 30%;
+        height: 9rem;
+    }
+
+
+
+
+/*                   FIN CONTACTO                    */
+
+
+
+
+
+
+/*                   CLIENTES                        */
+
+
+  /* Header */
+
+.header-container-clientes {
+    background-image: url(../imagen/clientes.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    background-attachment: fixed;
+    padding: 2rem 0;
+    height: 80vh;
+    width: 100%;
+    
+}
+
+.header-container-clientes a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+   
+    
+}
+
+/* Fin Header */
+
+
+/* Main */
+
+.main-clientes-container {
+    margin-top: 35px;
+    margin-bottom: 100px;
+
+
+}
+
+/* Fin Main */
+
+
+
+/*                  FIN CLIENTES                        */
+
+
+
+
+
